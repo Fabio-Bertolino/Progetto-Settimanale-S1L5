@@ -51,7 +51,7 @@ nav div button {
     padding: 0.8rem 2rem
 }
 
-.impaginazione {
+#impaginazione {
     padding: 3.5rem 3rem;
 }
 
@@ -60,14 +60,17 @@ h3 {
     font-family: Montserrat;
     font-weight: bold;
     line-height: 1.5;
+}
+
+#impaginazione h3 {
     padding: 1rem 0
 }
 
-.impaginazione p {
+#impaginazione p {
     padding-bottom: 1rem;
 }
 
-.impaginazione div img {
+#impaginazione div img {
     width: 100%;
     border-radius: 50%;
     padding: 1rem 0;
@@ -82,19 +85,86 @@ h3 {
     font-family: Montserrat;
     font-weight: bold;
     line-height: 1.5;
-    padding-top: 2rem;
+    padding-top: 4rem;
+    font-size: 2.2rem;
 }
 
+#testimonianze > p {
+    font-style: italic;
+    padding: 2rem 0
+}
+
+#testimonianze div {
+    padding-bottom: 3rem;
+}
+
+#testimonianze div p strong {
+    font-size: 1.7rem;
+}
+
+
 aside{
-    padding: 0;
+    padding: 2.7rem 0;
 }
 
 .vetrina {
     margin: 1.8rem;
     border: 1px #dee1e3 solid;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
 }
 
-.vetrina div img {
+.vetrina img {
     width: 100%;
 }
 
+.vetrina div {
+    padding: 0 1rem
+}
+
+.vetrina div h3 {
+    padding: 0.7rem 0
+}
+
+.vetrina div p {
+    padding-bottom: 2.5rem;
+}
+
+.vetrina div h3 a {
+    color: #25a2c3;
+    text-decoration: none;
+}
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+}
+
+footer h2 {
+    color:white;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 3.8rem;
+    font-size: 2.2rem;
+}
+
+address {
+    padding: 1.5rem 0;
+}
+
+footer p a {
+    color: #c8e7f0;
+}
+
+address i {
+    color: white;
+    padding: 0 0.3rem
+}
+
+footer > p {
+    margin: 0 6rem;
+    border-top: 1px white solid;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+}

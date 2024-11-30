@@ -1,0 +1,195 @@
+/* Your styles here */
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    text-align: left;
+    padding-left: 2em;
+}
+
+header div img {
+    padding: 1rem 0;
+    width: 10%;
+}
+
+main {
+    background-color: white;
+}
+
+nav {
+    padding: 10rem 24rem;
+    background-image: url('../images/banner.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    color: #25a2c3;
+    font-family: Montserrat;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+nav p {
+    padding-bottom: 2rem;
+}
+
+nav div button {
+    background-color: #f04c2f;
+    color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5%;
+    border-style: none;
+    padding: 0.8rem 2rem
+}
+
+#impaginazione {
+    padding: 0
+}
+
+#impaginazione img {
+    width: 30%;
+    border-radius: 50%;
+    padding: 1rem 0;
+}
+
+#destra {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    height: auto;
+
+}
+
+h3 {
+    color: #25a2c3;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#impaginazione h3 {
+    padding: 1rem 0
+}
+
+#impaginazione p {
+    padding-bottom: 1rem;
+}
+
+#testimonianze {
+    background-color: #e22d0e;
+    color: white;
+}
+
+#testimonianze h2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 5rem;
+    font-size: 1.7rem;
+}
+
+#testimonianze > p {
+    font-style: italic;
+    padding: 1rem 0;
+    font-size: 1.7rem
+}
+
+#testimonianze div {
+    padding-bottom: 5rem;
+}
+
+#testimonianze div p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+#testimonianze div p span {
+    font-size: 0.7rem;
+}
+
+aside{
+    padding: 2.7rem 0;
+}
+
+.vetrina {
+    display: inline-block;
+    width: 23%;
+    margin: 1.8rem;
+    border: 1px #dee1e3 solid;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%
+}
+
+.vetrina img {
+    width: 100%;
+}
+
+.vetrina div {
+    padding: 0 1rem
+}
+
+.vetrina div h3 {
+    padding: 0.7rem 0
+}
+
+.vetrina div p {
+    padding-bottom: 2.5rem;
+}
+
+.vetrina div h3 a {
+    color: #25a2c3;
+    text-decoration: none;
+}
+
+footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+}
+
+#piede {
+    width: 20%;
+    margin: auto;
+    padding: 1.5rem 0;
+}
+
+#piede h2 {
+    color:white;
+    font-family: Montserrat;
+    font-weight: bold;
+    line-height: 1;
+    padding-top: 2rem;
+    font-size: 3.5rem;
+}
+
+address {
+    padding: 1.5rem 0;
+}
+
+address p {
+    text-align: left;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+address i {
+    color: white;
+    padding: 0 0.3rem
+}
+
+#piede div {
+    border-top: 1px white solid;
+    padding-top: 1.5rem;
+}
